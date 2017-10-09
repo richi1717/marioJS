@@ -5,8 +5,6 @@
 
 # MarioJS
 
----
-
 # Installation
 ## This project uses [Yarn](https://yarnpkg.com/lang/en/docs/install/)!
 ### please make sure you have yarn installed and run ``` yarn install ``` after cloning to pull down all dependencies.
