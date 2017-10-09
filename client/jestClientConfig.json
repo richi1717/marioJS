@@ -1,0 +1,24 @@
+{
+  "collectCoverageFrom": [
+    "client/js/**/*.js"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/client/js/constants",
+    "/client/js/helpers/serviceUrls",
+    "/client/js/helpers/analytics",
+    "/client/js/helpers/rollbarHandleError",
+    "/client/js/index",
+    "/client/js/Routes",
+    "client/js/api/requests/mock"
+  ],
+  "modulePaths": [
+    "js"
+  ],
+  "setupTestFrameworkScriptFile": "../node_modules/jest-enzyme/lib/index.js",
+  "moduleNameMapper": {
+    "^.*\\.scss$": "<rootDir>/test/utils/SCSSStub.js"
+  },
+  "testMatch": ["**client/tests/**/*.test.js"],
+  "coverageDirectory": "../coverage/client"
+}

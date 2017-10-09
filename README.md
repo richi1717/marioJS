@@ -38,4 +38,4 @@
 | styles:watch | same as styles but with the --watch flag passed to node-sass |
 | build | builds the apps assets for production using webpack and node-sass |
 | prod | runs the build command and starts the production server |
-| dev | runs all the watchers in parrelel for local development |
+| dev | runs all the watchers in parallel for local development |

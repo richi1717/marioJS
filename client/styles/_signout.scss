@@ -1,0 +1,43 @@
+.signout-container {
+  flex: 1 0 auto;
+  padding: 0 30px 0 30px;
+  @media screen and (max-width: 640px) {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  h3:first-child {
+    font-size: 36px;
+    margin-bottom: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+
+    @media screen and (min-width: 640px) {
+      margin-bottom: 30px;
+      margin-top: 138px;
+    }
+  }
+
+  h5 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    @media screen and (min-width: 640px) {
+      margin-top: -10px;
+      margin-bottom: 30px;
+    }
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 21px;
+  }
+
+  p {
+    text-align: center;
+    color: $white;
+  }
+}
