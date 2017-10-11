@@ -1,4 +1,5 @@
 import Entity from './Entity';
+import Go from './traits/Go';
 import Velocity from './traits/Velocity';
 import Jump from './traits/Jump';
 import { loadMarioSprite } from './sprites';
@@ -8,8 +9,11 @@ export function createMario() {
     .then(sprite => {
       const mario = new Entity();
 
-      mario.addTrait(new Velocity());
+      mario.size.set(14, 16);
+
+      mario.addTrait(new Go());
       mario.addTrait(new Jump());
+      // mario.addTrait(new Velocity());
 
       mario.draw = function drawMario(context) {
         sprite.draw('idle', context, this.pos.x, this.pos.y);
