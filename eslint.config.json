@@ -37,7 +37,7 @@
     "max-len": "error",
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "no-param-reassign": "off",
-    "no-plusplus": "warn",
+    "no-plusplus": "off",
     "no-prototype-builtins": "warn",
     "no-restricted-syntax": "warn",
     "no-return-assign": "off",
